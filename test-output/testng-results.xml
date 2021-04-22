@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18077" started-at="2021-04-22T13:10:06 IST" finished-at="2021-04-22T13:10:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18077" started-at="2021-04-22T13:10:06 IST" finished-at="2021-04-22T13:10:24 IST">
+      <class name="testscript.Login_Flow">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testscript.Login_Flow@45c7e403]" name="setUp" is-config="true" duration-ms="399" started-at="2021-04-22T13:10:06 IST" finished-at="2021-04-22T13:10:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testscript.Login_Flow@45c7e403]" name="setUp" is-config="true" duration-ms="8873" started-at="2021-04-22T13:10:06 IST" finished-at="2021-04-22T13:10:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Physician_Valid_Login()[pri:0, instance:testscript.Login_Flow@45c7e403]" name="Physician_Valid_Login" duration-ms="9166" started-at="2021-04-22T13:10:15 IST" finished-at="2021-04-22T13:10:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Physician_Valid_Login -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:testscript.Login_Flow@45c7e403]" name="closeApplication" is-config="true" duration-ms="0" started-at="2021-04-22T13:10:24 IST" finished-at="2021-04-22T13:10:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Physician_Valid_Login status=SUCCESS method=Login_Flow.Physician_Valid_Login()[pri:0, instance:testscript.Login_Flow@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="clOse()[pri:0, instance:testscript.Login_Flow@45c7e403]" name="clOse" is-config="true" duration-ms="594" started-at="2021-04-22T13:10:24 IST" finished-at="2021-04-22T13:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clOse -->
+      </class> <!-- testscript.Login_Flow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
